@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://kanishgar.github.io/personal-blog-kanishgar/sitemap.xml
