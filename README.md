@@ -1,10 +1,10 @@
-# 🚀 Kanishgar M - Personal Blog, Coding Profiles Hub & Progress Tracker
+# 🚀 Kanishgar M - Verified Profiles & Links Hub
 
-A lightweight, modern, responsive personal website and blog tailored for **Kanishgar M** (Software Engineer & Competitive Programmer). Showcases competitive programming profiles (LeetCode, Codeforces, GeeksforGeeks, HackerRank, GitHub, LinkedIn), hosts technical writings, and shares a problem-solving Excel tracking spreadsheet (`.xlsx` / `.csv`) with interactive on-page previews.
+A clean, fast, and responsive links hub for **Kanishgar M** (Software Engineer & Competitive Programmer). Every profile card includes a one-click **Copy Link** button and an **Open** button.
 
 ---
 
-## 🌟 Profiles Connected
+## 🔗 Profiles & Handles
 
 - **LinkedIn**: [linkedin.com/in/kanishgar-m-ba7203299](https://linkedin.com/in/kanishgar-m-ba7203299)
 - **GitHub**: [github.com/Kanishgar](https://github.com/Kanishgar)
@@ -16,51 +16,6 @@ A lightweight, modern, responsive personal website and blog tailored for **Kanis
 
 ---
 
-## 📁 Project Structure
+## 🌐 Live Website
 
-```text
-personal-blog/
-├── index.html                  # Main homepage (profile, coding links, tracker, blog)
-├── style.css                   # Modern CSS styles with branded badge colors & themes
-├── app.js                      # Client logic (filters, table renderer, blog reader, xlsx parser)
-├── assets/
-│   ├── sample-tracker.xlsx     # The real Excel file downloaded by visitors
-│   ├── sample-tracker.csv      # CSV fallback download
-│   └── avatar-placeholder.svg  # Avatar graphic
-├── generate_xlsx.py            # Standalone generator script for Excel tracker
-└── README.md                   # Documentation & deployment guide
-```
-
----
-
-## ⚡ How to Preview Locally (Takes 5 Seconds)
-
-### Method 1: Direct in Browser
-Simply double-click `index.html` in your file explorer. It will open immediately in your web browser.
-
-### Method 2: Local HTTP Server
-Run this in PowerShell / terminal:
-```bash
-cd C:\Users\kanis\.gemini\antigravity\scratch\personal-blog
-python -m http.server 8080
-```
-Open [http://localhost:8080](http://localhost:8080) in your browser.
-
----
-
-## 🌐 Deploy to GitHub Pages for FREE (Under 2 Minutes)
-
-Since you already have GitHub at **[github.com/Kanishgar](https://github.com/Kanishgar)**:
-
-1. Create a new public repository on GitHub named `kanishgar.github.io` (or `personal-blog`).
-2. Run these commands inside the `personal-blog` folder:
-   ```bash
-   git init
-   git add .
-   git commit -m "Initial launch of Kanishgar's personal blog & tracking hub"
-   git branch -M main
-   git remote add origin https://github.com/Kanishgar/personal-blog.git
-   git push -u origin main
-   ```
-3. Go to your repo **Settings** → **Pages** → under **Source**, select **Deploy from a branch** (`main` / `/root`).
-4. In under 60 seconds, your site will be live on the internet with free HTTPS!
+👉 **[https://kanishgar.github.io/personal-blog-kanishgar/](https://kanishgar.github.io/personal-blog-kanishgar/)**
